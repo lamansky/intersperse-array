@@ -1,0 +1,39 @@
+{
+  "name": "intersperse-array",
+  "version": "1.0.0",
+  "description": "Interjects a value between each array item.",
+  "keywords": [
+    "intersperse",
+    "interject",
+    "interleave",
+    "separator",
+    "array",
+    "items"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/intersperse-array",
+  "repository": "lamansky/intersperse-array",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "intersperse-iterable": "^1.0.0",
+    "sbo": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
